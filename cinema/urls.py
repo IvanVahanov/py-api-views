@@ -18,4 +18,3 @@ urlpatterns = [
          name="actor-detail"),
     path("", include(router.urls)),
 ]
-
