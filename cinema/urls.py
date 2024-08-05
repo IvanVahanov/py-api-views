@@ -7,6 +7,8 @@ from cinema.views import (
     ActorDetailGenericAPIView,
     CinemaHallViewSet, MovieViewSet)
 
+app_name = "cinema"
+
 router = DefaultRouter()
 router.register(r"cinema_halls", CinemaHallViewSet)
 router.register(r"movies", MovieViewSet)
