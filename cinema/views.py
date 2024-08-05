@@ -5,7 +5,11 @@ from rest_framework import generics, viewsets, status
 from django.shortcuts import get_object_or_404
 
 from cinema.models import Actor, Genre, CinemaHall, Movie
-from cinema.serializers import ActorSerializer, GenreSerializer, CinemaHallSerializer, MovieSerializer
+from cinema.serializers import (
+    ActorSerializer,
+    GenreSerializer,
+    CinemaHallSerializer,
+    MovieSerializer)
 
 
 class GenreAPIView(APIView):
